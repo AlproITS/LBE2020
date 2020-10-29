@@ -1,0 +1,62 @@
+h1 {
+    background-color: green;
+}
+
+.algoritma {
+    background-color: #ff1234;
+}
+
+#pemrograman {
+    background-color: rgb(220, 231, 55);
+    padding: 50px 20px 30px 100px;
+    margin-left: 10px;
+}
+
+.fandy {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.putra {
+    border-style: dashed;
+    border-color: black;
+    border-bottom: 10px;
+    border-top-left-radius: 10px;
+}
+
+h4, h5 {
+    color: aqua;
+}
+
+p a {
+    color: yellow;
+}
+
+/* a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: chartreuse;
+} */
+
+body{
+    /* background: url(https://miro.medium.com/fit/c/336/336/0*X3svNMrA3oiteUyf.jpg) repeat top right; */
+}
+
+h4, h5{
+    color: orange;
+}
+
+.alam{
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.alam:hover {
+    transform: rotate(270deg);
+    width: 100px;
+    height: 100px;
+}

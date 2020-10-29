@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- deklarasi html 5 (rootnya) -->
+<html lang="en">
+
+<!-- tree nya -->
+
+<head>
+    <!-- biasanya utk metadata (jangan khawatirkan ini dulu) -->
+    <title>Tutor Alpro Keren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- yang ditampilin di halaman browser -->
+    <p>
+        <a href="https://w3schools.com" target="_blank">
+            ini link
+        </a>
+    </p>
+
+    <hr />
+
+    <!-- Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <h100>Heading 100</h100>
+    <!-- headings hanya dari 1-6 -->
+
+    <!-- Paragraph -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor <strong>incididunt ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud <em>exercitation ullamco</em> laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="http://google.com" target="_blank">sed do
+            eiusmod</a>
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <!-- Lists -->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+    <ol type="A">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+
+    <!-- Table -->
+    <table border="2">
+        <thead>
+            <tr>
+                <th rowspan="2">NRP</th>
+                <th colspan="2">Nama</th>
+            </tr>
+            <tr>
+                <th>Nama depan</th>
+                <th>Nama belakang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>05111740000062</td>
+                <td>
+                    <ul>
+                        <li>zidan</li>
+                        <li>zydhan</li>
+                        <li>azidan</li>
+                    </ul>
+                </td>
+                <td>lutfi</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr />
+
+    <!-- Forms -->
+    <form action="proses.php" method="POST">
+        <div>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" name="nama" placeholder="Masukkan nama lengkap">
+        </div>
+        <div>
+            <label for="nohp">No HP</label>
+            <input type="number" name="nohp" placeholder="081234567890">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="ersad@mail.com">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        Jenis kelamin
+        <div>
+            <input type="radio" name="jkel" value="lakilaki">
+            <label for="lakilaki">Laki-laki</label><br>
+            <input type="radio" name="jkel" value="perempuan">
+            <label for="perempuan">Perempuan</label><br>
+        </div>
+        Kendaraan
+        <div>
+            <input type="checkbox" name="kendaraan1" value="sepeda">
+            <label for="kendaraan1"> Aku punya sepeda</label><br>
+            <input type="checkbox" name="kendaraan2" value="mobil">
+            <label for="kendaraan2"> Aku punya mobil</label><br>
+            <input type="checkbox" name="kendaraan3" value="kapal">
+            <label for="kendaraan3"> Aku punya kapal</label>
+        </div>
+        <div>
+            <label for="tgl_lahir">Tanggal Lahir</label><br>
+            <input type="date" name="tgl_lahir">
+        </div>
+        <div>
+            <label for="jam_lahir">Jam Lahir</label><br>
+            <input type="time" name="jam_lahir">
+        </div>
+        <label for="kota">Tempat Lahir</label><br>
+        <select name="kota">
+            <option value="sby">surabaya</option>
+            <option value="jkt">jakarta</option>
+            <option value="bdg">bandung</option>
+        </select>
+        <br>
+        <input type="submit" name="submit" value="Submit Form">
+    </form>
+
+    <!-- Button -->
+    <br>
+    <button>Ini contoh tombol</button>
+
+    <hr/>
+
+    <!-- Image -->
+    Ini contoh gambar
+    <br>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="gugel"
+        width="100">
+
+</body>
+
+</html>

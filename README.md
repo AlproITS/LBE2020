@@ -11,3 +11,13 @@
 - CSS (*Cascading Style Sheets*)
    - Selector, Property, Values
    - Grouping, Nesting
+
+### Minggu 3
+- JS (*Javascript*)
+   - Variables
+   - Equality Operators
+   - Functions
+   - Objects
+   - Arrays
+   - Document Object Model (DOM)
+   - Events and Callbacks
